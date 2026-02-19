@@ -1,0 +1,40 @@
+h1, h2 {
+    color: palevioletred;
+    font-size: 2rem; 
+}
+h1 {
+    margin: 20px; 
+}
+.box {
+    width: 50%;
+    height: 20vh; 
+    background-color: lightgray;
+    padding: 2em; 
+    margin: 1rem; 
+}
+
+div p {
+    color: black;
+    font-size: 18px; 
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+button:active {
+    background-color:orchid;
+}
+
+input:focus {
+    border-color:lightsalmon;
+}
+
+a:hover {
+    color: red;
+}
