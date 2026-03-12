@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+}
+ 
+.container{
+    width:500px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+ 
+li{
+    padding:8px;
+    margin:5px 0;
+    border:1px solid #ccc;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+ 
+.present{
+    background:#c8f7c5;
+}
+ 
+.highlight{
+    border:3px solid orange;
+}
+ 
+button{
+    margin-left:5px;
+}

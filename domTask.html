@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student List Manager</title>
+ 
+<link rel="stylesheet" href="domTask.css">
+</head>
+ 
+<body>
+ 
+<div class="container">
+ 
+<h2>Student List</h2>
+ 
+<input type="text" id="roll" placeholder="Roll No">
+<input type="text" id="name" placeholder="Student Name">
+ 
+<button id="addBtn" disabled>Add</button>
+ 
+<br><br>
+ 
+<input type="text" id="search" placeholder="Search student">
+ 
+<br><br>
+ 
+<button onclick="sortStudents()">Sort A-Z</button>
+<button onclick="highlightFirst()">Highlight First Student</button>
+ 
+<ul id="studentList"></ul>
+ 
+<p id="total">Total students: 0</p>
+ 
+<p id="attendance">Present: 0 , Absent: 0</p>
+</div>
+ 
+<script src="domTask.js"></script>
+</body>
+</html>
